@@ -43,9 +43,7 @@ h1 {
   font-size: 1.25rem;
   line-height: 1.5;
   margin: 0 0 12px;
-  color: var(--purple);
-  text-shadow: 2px 2px 0 var(--purple-pale);
-  transition: color 0.1s steps(2);
+  color: var(--text);
   cursor: default;
 }
 
