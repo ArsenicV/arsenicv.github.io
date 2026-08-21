@@ -1,61 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Name - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Thirshe</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <h1>Your Name</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
+    <img class="avatar" src="images/profile.jpg" alt="Thirshe">
 
-    <section id="about" class="pixel-section">
-        <h2>About Me</h2>
-        <div class="pixel-content">
-            <p>Hello! I'm Your Name, a passionate developer with a love for creating beautiful and functional websites. I specialize in front-end development and have experience with HTML, CSS, and JavaScript.</p>
-            <p>When I'm not coding, you can find me exploring new technologies, playing video games, or enjoying a good cup of coffee.</p>
-        </div>
+    <h1>Thirshe</h1>
+    <p class="tagline">Data Science Undergraduate · SLIIT</p>
+
+    <p class="contact"><a href="mailto:youremail@example.com">youremail@example.com</a></p>
+
+    <div class="socials">
+      <a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a>
+      <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a>
+      <a href="https://twitter.com/yourusername" target="_blank" rel="noopener">Twitter</a>
+    </div>
+
+    <p class="bio">
+      Hi, I'm Thirshe — a second-year Data Science undergraduate at SLIIT, working on
+      computational biology and protein structure prediction. I'm currently designing a
+      hybrid architecture for protein structure prediction, combining efficient long-sequence
+      models with equivariant graph networks, and working toward a research assistant role
+      in computational biology.
+    </p>
+
+    <p class="bio">
+      Outside research, I work on applied computer vision and machine learning projects,
+      and I'm building toward a long-term venture at the intersection of ML tooling and
+      biology. I'm also involved with SEDS (Space Exploration and Development Society).
+    </p>
+
+    <section>
+      <h2>Projects</h2>
+      <ul class="list">
+        <li>
+          <span class="item-title">Protein Structure Prediction Pipeline</span>
+          <span class="item-desc">Novel architecture combining Hyena operators, a temporal encoding bridge, an SNN/LNN layer, and SE(3)-equivariant EGNN layers.</span>
+        </li>
+        <li>
+          <span class="item-title">YOLOv8 PCB Defect Detection</span>
+          <span class="item-desc">End-to-end computer vision pipeline fine-tuned on a 7-class dataset, achieving mAP50: 0.995.</span>
+          <a href="#" target="_blank" rel="noopener">GitHub</a>
+        </li>
+        <li>
+          <span class="item-title">DRiST — Diabetes Risk Screening Tool</span>
+          <span class="item-desc">Group lab project using Logistic Regression, XGBoost with SHAP, and FT-Transformer models.</span>
+        </li>
+        <li>
+          <span class="item-title">CubeSat NDVI Pipeline</span>
+          <span class="item-desc">Remote sensing pipeline built through SEDS.</span>
+        </li>
+      </ul>
     </section>
 
-    <section id="projects" class="pixel-section">
-        <h2>Projects</h2>
-        <div class="pixel-content">
-            <div class="project">
-                <h3>Project 1</h3>
-                <p>A brief description of your first project.</p>
-            </div>
-            <div class="project">
-                <h3>Project 2</h3>
-                <p>A brief description of your second project.</p>
-            </div>
-            <div class="project">
-                <h3>Project 3</h3>
-                <p>A brief description of your third project.</p>
-            </div>
-        </div>
+    <section>
+      <h2>Now</h2>
+      <p class="bio">
+        Preparing for a research group meeting on the protein structure prediction pipeline,
+        while collaborating on an IRC-OUSL paper and finishing coursework in probability &amp; statistics.
+      </p>
     </section>
 
-    <section id="contact" class="pixel-section">
-        <h2>Contact</h2>
-        <div class="pixel-content">
-            <p>Email: your.email@example.com</p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile">linkedin.com/in/yourprofile</a></p>
-            <p>GitHub: <a href="https://github.com/yourusername">github.com/yourusername</a></p>
-        </div>
-    </section>
-
-    <footer>
-        <p>&copy; 2023 Your Name. All rights reserved.</p>
-    </footer>
+  </main>
 </body>
 </html>
